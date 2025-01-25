@@ -25,7 +25,7 @@ match_csv.each do |row|
   m.venue = row['venue']
   m.round = row['round']
   m.date = row['date']
-  m.host = row['host']
+  m.host = row['hosts']
   m.year = row['year']
   m.save
 end
